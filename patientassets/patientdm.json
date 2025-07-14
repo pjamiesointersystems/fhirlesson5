@@ -1,0 +1,59 @@
+{
+    "resourceType": "Condition",
+    "id": "cfsb1739719571656",
+    "subject": {
+      "reference": "cfsb1739559272444"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "active",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "code": "confirmed",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "problem-list-item",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Problem List Item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "code": "44054006",
+          "system": "http://snomed.info/sct",
+          "display": "Type 2 Diabetes Mellitus"
+        }
+      ]
+    },
+    "onsetDateTime": "2015-06-01",
+    "recordedDate": "2024-02-14",
+    "severity": {
+      "coding": [
+        {
+          "code": "24484000",
+          "system": "http://snomed.info/sct",
+          "display": "Severe"
+        }
+      ]
+    },
+    "asserter": {
+      "reference": "cfsb1739628662026"
+    }
+  }
